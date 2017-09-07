@@ -1,0 +1,52 @@
+.form_bg {
+    /* background-color:rgba(0,0,0,0.7); */
+    color:white;
+    padding:20px;
+    position: absolute;
+    
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 320px;
+    height: 280px;
+}
+.align-center {
+    text-align:center;
+    width:100%;
+}
+
+div.userpassword{
+    position: relative;
+}
+div.userpassword > div.animatedLabel{
+    position: absolute;
+    top:8px;
+    left:10px;
+    color: black;
+    font-size: 12px;
+    transition: all 0.1s linear;
+}
+
+div.userpasswordActivated{
+    top:-18px !important;
+}
+
+/* div.userpassword:hover > div.animatedLabel{
+    position: absolute;
+    top:-18px;
+    left:10px;
+} */
+
+
+.btn .btn-default{
+    /* background-color: rgba(49, 47, 50,0.3); */
+    background-color: orange;
+    color: white;
+}
+
+div.submitpanel{
+    display:flex;
+    justify-content: space-between;
+}

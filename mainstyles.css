@@ -1,0 +1,43 @@
+*{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.container-fluid {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+div.container-fluid>div.loginrow {
+    height: 100vh;
+}
+
+.description {
+    /* background: lightcoral; */
+    padding: 0px;
+    position: relative;
+    background-image: url('login-page-image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+}
+
+div.description>div#intro {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    
+    color: rgb(49, 47, 50);
+    background: rgba(254, 212, 38, 0.3);
+    
+    padding-left: 10px;
+    display: flex;
+}
+
+div.description>div#intro > div#centerme{
+    margin: auto;
+}
+
+.login {
+    background: rgba(46, 204, 113,1.0);
+}
