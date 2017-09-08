@@ -1,43 +1,61 @@
 *{
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    /*box-sizing: border-box;*/
 }
 
-.container-fluid {
-    background: rgba(0, 0, 0, 0.8);
+#CompanyAdvertise{
+background: url("login-page-image.jpg");
+background-size: cover;
+background-attachment: scroll;
+background-position: center center;
 }
 
-div.container-fluid>div.loginrow {
-    height: 100vh;
+#LoginandSignup{
+
 }
 
-.description {
-    /* background: lightcoral; */
-    padding: 0px;
-    position: relative;
-    background-image: url('login-page-image.jpg');
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
+.fullheightcolumn{
+    height:100vh;
 }
 
-div.description>div#intro {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    
-    color: rgb(49, 47, 50);
-    background: rgba(254, 212, 38, 0.3);
-    
-    padding-left: 10px;
-    display: flex;
+.torq{
+    background-color: rgb(26, 188, 156);
 }
 
-div.description>div#intro > div#centerme{
-    margin: auto;
+.emerald{
+    background: rgb(46, 204, 113);
 }
 
-.login {
-    background: rgba(46, 204, 113,1.0);
+.sunflower{
+    background: rgb(241, 196, 15);
+}
+
+.carrot{
+    background: rgb(230, 126, 34);
+}
+
+.concrete{
+    background: rgb(149, 165, 166);
+}
+
+.midblue{
+    background: rgb(44, 62, 80);
+}
+
+.river{
+    background: rgb(52, 152, 219);
+}
+
+
+.pumpkin{
+    background: rgb(211, 84, 0);
+}
+
+.height40{
+height: 40px;
+}
+
+
+.height80{
+height: 80px;
 }
