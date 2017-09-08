@@ -10,51 +10,167 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
         crossorigin="anonymous">
     <link rel="stylesheet" href="mainstyles.css">
-    <link rel="stylesheet" href="loginform.css">
     <title>Easy Hire | Login</title>
 </head>
 
 <body>
+
+
     <div class="container-fluid">
+        <div class="row" id="AdvertandLoginSignupRow">
+            <div class="col-lg-6  col-md-4 torq fullheightcolumn" id="CompanyAdvertise">
+                <div id="companytagline">
+                   
+                    <h2>Welcome to Easy Hire</h2>
+                    <h6>A Jounrney of a thousand miles starts with one small step.</h6>
+                    <h6>We are here to help you take that one small step towards your goal.</h6>
+                    <h6><strong>Please <a href="#LoginandSignup" style="color:white; text-decoration: underline;" >Login</a> or Signup to start.</strong></h6>
+                    <button class="btn btn-lg btn-danger btn-small" type="button">Sign Up</button>
 
-        <div class="row loginrow">
-            <div class="col-sm-6 description">
-                <div id="intro">
-                    <div id="centerme">
-                        <h1>Welcome to Easy Hire</h1>
-                        <h6>A Jounrney of a thousand miles starts with one small step.</h6>
-                        <h6>We are here to help you take that one small step towards your goal.</h6>
-                        <h6><strong>Please Login or Signup to start >></strong></h6>
+                </div>
+            </div>
+            <!--This is where we will position our login section-->
+            <div class="col-lg-6 col-md-8 sunflower fullheightcolumn" id="LoginandSignup">
 
+                <div class="row signInWithEmail">
+                    <div class="col-8 mx-auto">
+                        <form class="form-signin">
+                            <h2 class="form-signin-heading" style="text-align:center;">Sign In with Email</h2>
+                            <label for="inputEmail" class="sr-only">Email address</label>
+                            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+                            <label for="inputPassword" class="sr-only">Password</label>
+                            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+                            <div class="checkbox">
+                                <label>
+                                <input type="checkbox" value="remember-me"> Remember me
+                            </label>
+                            </div>
+                            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                        </form>
+                    </div>
+                </div>
+                <!--div class row ends-->
+                <div class="row signInSocial">
+                    <div class="col-8 mx-auto">
+                        <h6 style="color:grey; text-align:center;">---<span style="color:black; text-align:center;">or Sign In with</span>---</h6>
+                        <ul class="list-inline socialLoginList">
+                            <li>
+                                <a target="_blank" href="#" class="social facebook"></a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="#" class="social linkedin"></a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="#" class="social twitter"></a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="#" class="social googleplus"></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
             </div>
-            <div class="col-sm-6 login">
+            <!--div with id LoginandSignup ends-->
+
+        </div>
+        <!--AdvertandLoginSignupRow ends-->
+
+
+        <div class="row">
+            <div class="col-lg-4 torq height80"></div>
+            <div class="col-lg-4 midblue height80"></div>
+            <div class="col-lg-4 pumpkin height80"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6 river height80"></div>
+            <div class="col-lg-6 carrot height80"></div>
+        </div>
+
+
+        <!--Footer Section. Still a part of the main container-fluid div defined at the very begining-->
+        <footer class="mainfooter" role="contentinfo">
+            <div class="footer-middle">
                 <div class="container">
                     <div class="row">
-                        <div class="form_bg">
-                            <form>
-                                    <div class="form-group userpassword">
-                                    <input type="email" class="form-control" id="username" required>
-                                    <div class="animatedLabel">USER NAME</div>
-                                </div><br>
-                                <div class="form-group userpassword">
-                                    <input type="password" class="form-control" id="pwd" required> 
-                                    <div class="animatedLabel">PASSWORD</div>
-                                </div>
-                                <br/>
-                                <div class="submitpanel">
-                                    <button type="submit" class="btn btn-default" id="login">Login</button>
-                                    <a href="#" class="btn btn-danger"><span class="glyphicon glyphicon-circle-arrow-right"></span> Google</a>
-                                    <a href="#" class="btn btn-primary "><span class="glyphicon glyphicon-circle-arrow-right"></span> Facebook</a>
-                                </div>
-                            </form>
+                        <div class="col-md-3 col-sm-6">
+                            <!--Column1-->
+                            <div class="footer-pad">
+                                <h4>Address</h4>
+                                <address>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            Wayne Manor<br> 212 Street<br> Gotham City
+                                            <br> 0735
+                                            <br>
+                                        </li>
+                                        <li>
+                                            Phone: 9930517328
+                                        </li>
+                                    </ul>
+                                </address>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <!--Column1-->
+                            <div class="footer-pad">
+                                <h4>Popular</h4>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#"></a>
+                                    </li>
+                                    <li><a href="#">Dicussions</a></li>
+                                    <li><a href="#">The Hiring Guide</a></li>
+                                    <li><a href="#">Trends</a></li>
+                                    <li><a href="#">News and Updates</a></li>
+                                    <li><a href="#">FAQs</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <!--Column1-->
+                            <div class="footer-pad">
+                                <h4>Business</h4>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">About US</a></li>
+                                    <li><a href="#">The Philosophy</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                    <li><a href="#">Disclaimer</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <!--Column1-->
+                            <div class="footer-pad">
+                                <h4>Fun Links</h4>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">The Vixen and her victims</a></li>
+                                    <li><a href="#">Welcome to Hotel California</a></li>
+                                    <li><a href="#">I am losing my mind</a></li>
+                                    <li><a href="#">Dude, I am stoned</a></li>
+                                    <li><a href="#">The Batman and Robin</a></li>
+                                    <li>
+                                        <a href="#"></a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <!--Footer Bottom-->
+                            <p class="text-xs-center">&copy; Copyright 2017 - EMP Corporation. Siddhesh Mayur Ashish.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
 
 
@@ -68,32 +184,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
         crossorigin="anonymous"></script>
 
-    <script>
-        document.getElementsByClassName("form-control")[0].addEventListener('focus', function () {
-            
-            document.getElementsByClassName("animatedLabel")[0].classList.add("userpasswordActivated");
-
-        });
-        document.getElementsByClassName("form-control")[1].addEventListener('focus', function () {
-
-            document.getElementsByClassName("animatedLabel")[1].classList.add("userpasswordActivated");
-
-        });
-
-        document.getElementsByClassName("form-control")[0].addEventListener('blur', function () {
-            
-            if(document.getElementsByClassName("form-control")[0].value.trim().length == 0)
-              document.getElementsByClassName("animatedLabel")[0].classList.remove("userpasswordActivated");
-
-        });
-        document.getElementsByClassName("form-control")[1].addEventListener('blur', function () {
-            if(document.getElementsByClassName("form-control")[1].value.trim().length == 0)
-            document.getElementsByClassName("animatedLabel")[1].classList.remove("userpasswordActivated");
-
-        });
-
-
-    </script>
 
 </body>
 
